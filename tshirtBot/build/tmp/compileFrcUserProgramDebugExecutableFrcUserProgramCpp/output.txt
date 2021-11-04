@@ -1,0 +1,14 @@
+See file:///C:/Users/Robotics/Desktop/tshirt%20modified/tshirtBot/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramDebugExecutableFrcUserProgramCpp.
+compiling Robot.cpp successful.
+In file included from C:\Users\Robotics\Desktop\tshirt modified\tshirtBot\src\main\include/Robot.h:13:0,
+                 from C:\Users\Robotics\Desktop\tshirt modified\tshirtBot\src\main\cpp\Robot.cpp:5:
+C:\Users\Robotics\.gradle\caches\transforms-2\files-2.1\f8c1ace042fc212b062956dc665f3737\wpilibc-cpp-2021.2.2-headers/frc/WPIlib.h:11:2: warning: #warning is a GCC extension
+ #warning "Including this header drastically increases compilation times and is bad style. Include only what you use instead."
+  ^~~~~~~
+C:\Users\Robotics\.gradle\caches\transforms-2\files-2.1\f8c1ace042fc212b062956dc665f3737\wpilibc-cpp-2021.2.2-headers/frc/WPIlib.h:11:2: warning: #warning "Including this header drastically increases compilation times and is bad style. Include only what you use instead." [-Wcpp]
+C:\Users\Robotics\Desktop\tshirt modified\tshirtBot\src\main\cpp\Robot.cpp: In member function 'virtual void Robot::TeleopPeriodic()':
+C:\Users\Robotics\Desktop\tshirt modified\tshirtBot\src\main\cpp\Robot.cpp:82:24: warning: 'output' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     myRobot.ArcadeDrive(XboxY, output, true);
+     ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+
+Finished compileFrcUserProgramDebugExecutableFrcUserProgramCpp, see full log file:///C:/Users/Robotics/Desktop/tshirt%20modified/tshirtBot/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt.
