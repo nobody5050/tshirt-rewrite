@@ -2,12 +2,12 @@
 // Open Source Software; you can modify and/or share it under the terms of
 // the WPILib BSD license file in the root directory of this project.
 
+// First we include FIRST's libararies, they make the robot work.
 #include "Robot.h"
-
 #include <iostream>
-
 #include <frc/smartdashboard/SmartDashboard.h> 
 
+// RobotInit is called when the robot is enabled in FIRST driver station. This means that 
 void Robot::RobotInit() {
   m_chooser.SetDefaultOption(kAutoNameDefault, kAutoNameDefault);
   m_chooser.AddOption(kAutoNameCustom, kAutoNameCustom);
