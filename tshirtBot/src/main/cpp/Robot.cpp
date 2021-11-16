@@ -7,7 +7,8 @@
 #include <iostream>
 #include <frc/smartdashboard/SmartDashboard.h> 
 
-// RobotInit is called when the robot is enabled in FIRST driver station. This means that 
+// RobotInit is called when the robot is enabled in FIRST driver station. 
+// Literally all it does is initialize the autos and show fhem in smart dashboard
 void Robot::RobotInit() {
   m_chooser.SetDefaultOption(kAutoNameDefault, kAutoNameDefault);
   m_chooser.AddOption(kAutoNameCustom, kAutoNameCustom);
